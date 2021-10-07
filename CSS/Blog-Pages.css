@@ -1,0 +1,97 @@
+/* body{
+
+	margin:0;
+	
+	background-color: #f1f1f1;
+}
+*{
+	
+} */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+.Blog-Container{
+	width: 100%;
+    background-color:#f1f1f1;
+	padding:40px 20px 20px 20px;
+	box-sizing: border-box;
+}
+.Blog-Container a{
+	color: #000000;
+}
+.row:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+header{
+	background-color:#f1f1f1;
+	padding:30px;
+	text-align: center;
+}
+header h1{
+	text-align: center;
+	font-size:60px;
+	color:#000000;
+	margin:1.5 0px;
+	font-family: "Dancing Script", cursive;
+}
+
+h2{
+	color:#000000;
+margin:1.5 0px;	
+}
+.left-column{
+float: left;
+width: 75%;	
+}
+
+.right-column{
+ width: 25%;
+ float: right;
+ padding-left:20px;
+}
+.card{
+	padding: 20px;
+	background-color: #ffffff;
+    margin-top:20px;
+}
+
+.card img{
+	width: 100%;
+	background-image: linear-gradient(to left bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.right-column .card img{
+	margin-bottom: 10px;
+}
+i{
+	text-align: center;
+	font-size: 30px;
+	padding: 30px 30px;
+}
+.blog-f{
+	text-align: center;
+	margin:50px;
+}
+
+.blog-f a{
+	font-size: 30px;
+	color: black;
+	padding: 10px;
+	border-radius: 20px;
+	border: 1px solid black;
+	background-color: white;
+}
+.blog-f a:hover{
+	background-color: #000000;
+	color: white;
+}
+
+/*responsive */
+
+@media(max-width:800px){
+	.left-column,.right-column{
+    width: 100%;
+    padding: 0px;
+	}
+}
+

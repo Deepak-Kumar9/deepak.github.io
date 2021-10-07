@@ -1,0 +1,82 @@
+.About-container {
+  width: 100%;
+  background-color: wheat;
+  background-image: url("../image/");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  box-sizing: border-box;
+  padding-top: 4.4rem;
+}
+.About-top {
+  width: 100%;
+  margin-top: 4%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+@media screen and (max-width: 950px) {
+  .About-top {
+    flex-direction: column-reverse;
+  }
+}
+.ab-top-box {
+  width: 500px;
+  background-color: white;
+  margin: 10px;
+}
+.ab-top-box h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 4vmax;
+  padding: 10px 10px;
+}
+.ab-top-box p {
+  margin-top: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 17px;
+  padding: 0% 10%;
+}
+.img2 {
+  background-image: url("../image/About/about.jpg");
+  background-attachment: fixed;
+  background-size: contain;
+  border-radius: 100px;
+}
+.about-buttom {
+  width: 100%;
+  background-color: #E7E7E7;
+  max-height: 1500px;
+  text-align: center;
+  margin-top: 50px;
+}
+.about-buttom h1 {
+  font-size: 70px;
+  font-family: "Dancing Script", cursive;
+  padding-top: 10px;
+}
+.ab-buttom-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.ab-buttom-box1 {
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+  border: 1px solid black;
+  padding: 10px;
+}
+.ab-buttom-box1 h2,p{
+    font-size:15px;
+    float: left;
+}
+.ab-buttom-box1 i{
+    font-size: 50px;
+    float: left;
+}
